@@ -1,0 +1,15 @@
+#include<studio.h>
+main()
+{
+ printf("ENTER 0 OR 1 \n");
+ int choice;
+ scanf("%d",&choice);
+ switch(choice)
+ {
+    case 0:printf("YOU HAVE ENTERED THE NUMBER 0");
+         break;
+    case 1:printf("YOU HAVE ENTERED THE NUMBER 1");
+         break;
+    default:printf("YOU DIDN'T CHOOSE 0 OR 1");
+ }
+}
